@@ -33,10 +33,18 @@ h1 {
                  
 }
 
+#click-me {
+
+    
+    background-color: var(--mimi-pink);
+    margin: 10px
+    
+}
+
 h2 {
     text-align: center;
     font-size: larger;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
     
 }
@@ -52,5 +60,10 @@ h2 {
 .coffee-beans {
     width: min-content;
     height: 10cm;
-    opacity: 0.5;
+    
+}
+
+.RT{
+    font-size: larger;
+    font-weight: bolder;
 }
