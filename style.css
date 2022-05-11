@@ -1,8 +1,8 @@
 
 
+/* necessary elements start */
 
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Montserrat:wght@100;200;300;600&family=Oleo+Script+Swash+Caps&family=Roboto+Flex:opsz,wght@8..144,100;8..144,300&display=swap');
 
 *{
     --champagne-pink: #eddcd2ff;
@@ -17,53 +17,134 @@
     --pale-cerulean: #99c1deff;
 }
 
+*{
+    box-sizing: border-box;
+}
 
-body, html {
+html {
     background-color: var(--champagne-pink);
     height: 100%;
     width: 100%;
+    margin: 0;
 }
 
-h1 {
+body {
     
-    color: cornflowerblue ;
-    font-family: Georgia, 'Times New Roman', Times, serif ;
-    text-align: center;
-    font-weight: bolder;
-                 
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
 }
+
+/*necessary elements end*/
+
+/*Section style start*/
+
+#top {
+    
+    margin: 100%;
+
+}
+
+#middle {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-image: url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F9%2F2021%2F01%2F21%2Fhow-to-store-coffee-beans-FT-BLOG0121.jpg&q=60");
+
+}
+@media (min-width: 600px) {
+    #middle {
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-evenly;
+        background-image: url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F9%2F2021%2F01%2F21%2Fhow-to-store-coffee-beans-FT-BLOG0121.jpg&q=60");
+
+    }
+
+
+#bottom {
+
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://images.pexels.com/photos/851555/pexels-photo-851555.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+    opacity: 0.65;
+
+}
+}
+
+/*Section style end*/
+
+/*INTERACTIVE STYLE START*/
 
 #click-me {
 
-    
     background-color: var(--mimi-pink);
-    margin: 10px
+    margin-bottom: 40px;
+    padding: 20px;
+    font-family: 'Koulen', cursive;
+    font-size: large;
+    border-radius: 5%;
+    border-color: gray;
     
+}
+
+.button{
+
+    
+    text-align: center;
+}
+
+/*INTERACTIVE END*/
+
+/*TEXT STYLE START*/
+
+h1 {
+    
+    color: var(--pale-cerulean);
+    font-family: 'Oleo Script Swash Caps', cursive;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+                 
 }
 
 h2 {
     text-align: center;
-    font-size: larger;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: lighter;
-    
-}
-
-
-
-
-.important { 
-    color: rgb(0, 0, 0);
-    font-family: 'Montserrat', sans-serif;
-}
-
-.coffee-beans {
-    width: min-content;
-    height: 10cm;
-    
-}
-
-.RT{
-    font-size: larger;
+    font-size: 25px;
+    font-family: 'Roboto Flex', sans-serif;
     font-weight: bolder;
+    color: gray;
+    
 }
+
+#RL{
+    
+    height: 230px;
+    width: 250px;
+    margin: 20px;
+    padding: 10px;
+    background-color: var(--mimi-pink);
+
+}
+
+#RT, #W2T, #FR{
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.RN{
+    list-style-position: inside;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: large;
+}
+
+/*TEXT STYLE END*/
