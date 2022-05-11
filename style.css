@@ -1,13 +1,56 @@
-h1 {
-    color: cornflowerblue ;
-    font-family: Georgia, 'Times New Roman', Times, serif ;
-    background-color: rgb(202, 198, 198);
-    text-align: center;
-    font-weight: bolder;
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Space+Mono&display=swap');
+
+*{
+    --champagne-pink: #eddcd2ff;
+    --linen: #fff1e6ff;
+    --misty-rose: #fde2e4ff;
+    --mimi-pink: #fad2e1ff;
+    --powder-blue: #c5deddff;
+    --mint-cream: #dbe7e4ff;
+    --isabelline: #f0efebff;
+    --alice-blue: #d6e2e9ff;
+    --beau-blue: #bcd4e6ff;
+    --pale-cerulean: #99c1deff;
 }
 
-p {
+
+body, html {
+    background-color: var(--champagne-pink);
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    
+    color: cornflowerblue ;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    text-align: center;
+    font-weight: bolder;
+                 
+}
+
+h2 {
     text-align: center;
     font-size: larger;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    
+}
+
+
+
+
+.important { 
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.coffee-beans {
+    width: min-content;
+    height: 10cm;
+    opacity: 0.5;
 }
